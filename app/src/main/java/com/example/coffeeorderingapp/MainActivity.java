@@ -1,8 +1,10 @@
 package com.example.coffeeorderingapp;
 
 import android.os.Bundle;
+import android.text.Editable;
 import android.util.Log;
 import android.view.View;
+import android.widget.EditText;
 import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -103,7 +105,9 @@ public class MainActivity extends AppCompatActivity {
 
     private String createOrderSummary(int quantity)
     {
-        String msg="Name: Momo\nQuantity: " + quantity +"\nToppings:\n";
+        EditText name=(EditText) findViewById(R.id.customer_name);
+        String CustomerName = name.getText().toString();
+        String msg="Name: "+CustomerName +"\nQuantity: " + quantity +"\nToppings:\n";
         if(whippedCream) msg+="\t\t\t\tWhipped Cream: Yes\n";
         else msg+="\t\t\t\tWhipped Cream: No\n";
 
@@ -111,6 +115,7 @@ public class MainActivity extends AppCompatActivity {
         else msg+="\t\t\t\tChocolate: No\n";
 
         msg+="\nPrice: ₹" +calculatePrice(quantity,10) + "\nThank You.";
+
         return msg;
     }
 }
