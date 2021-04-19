@@ -14,21 +14,18 @@
         <EditText
             android:id="@+id/customer_name"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
             android:hint="@string/Name"
             android:layout_marginLeft="8dp"
             android:layout_marginTop="16px"
             android:layout_marginBottom="8dp"
-            android:inputType="textCapWords" />
+            style="@style/HeaderTextStyle" />
 
         <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
             android:layout_marginLeft="8dp"
             android:layout_marginTop="16px"
             android:layout_marginBottom="8dp"
             android:text="@string/Toppings"
-            android:textAllCaps="true"
+            style="@style/HeaderTextStyle"
             android:textColor="#808080" />
 
         <CheckBox
@@ -50,12 +47,10 @@
             android:textSize="16sp" />
 
         <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
             android:layout_marginLeft="8dp"
             android:layout_marginBottom="16dp"
             android:text="@string/Quantity"
-            android:textAllCaps="true"
+            style="@style/HeaderTextStyle"
             android:textColor="#808080" />
 
         <LinearLayout
@@ -94,13 +89,11 @@
         </LinearLayout>
 
         <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
             android:layout_marginLeft="8dp"
             android:layout_marginTop="8dp"
             android:layout_marginBottom="16dp"
             android:text="@string/OrderSummary"
-            android:textAllCaps="true"
+            style="@style/HeaderTextStyle"
             android:textColor="#808080" />
 
         <TextView
