@@ -119,12 +119,12 @@ public class MainActivity extends AppCompatActivity {
     private String createOrderSummary(int quantity) {
         EditText name = (EditText) findViewById(R.id.customer_name);
         String CustomerName = name.getText().toString();
-        String msg = getString(R.string.Name)+" : "+ CustomerName + "\n"+ getString(R.string.Quantity) + quantity+" : " + "\n"+getString(R.string.Toppings) +"\n";
+        String msg = getString(R.string.Name)+" : "+ CustomerName + "\n"+ getString(R.string.Quantity)+" : "  + quantity+ "\n"+getString(R.string.Toppings) +"\n";
         if (whippedCream) msg += "\t\t\t\t"+getString(R.string.whipped_cream)+ " : "+getString(R.string.yes)+"\n";
-        else msg += "\t\t\t\t"+getString(R.string.whipped_cream)+ " : "+" No\n";
+        else msg += "\t\t\t\t"+getString(R.string.whipped_cream)+ " : "+getString(R.string.no)+"\n";
 
         if (chocolateTopping) msg += "\t\t\t\t"+getString(R.string.chocolate)+ " : " +getString(R.string.yes)+"\n";
-        else msg += "\t\t\t\t"+getString(R.string.chocolate) +getString(R.string.no)+ " : "+"\n";
+        else msg += "\t\t\t\t"+getString(R.string.chocolate)+ " : " +getString(R.string.no)+"\n";
 
         msg += "\n"+getString(R.string.price)+": ₹" + calculatePrice(quantity, 10) + "\n"+getString(R.string.thankyou);
 
