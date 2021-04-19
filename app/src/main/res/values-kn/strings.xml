@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CoffeeOrderingApp</string>
+    <string name="Name">ಹೆಸರು</string>
+    <string name="Toppings">ಮೇಲೋಗರಗಳು</string>
+    <string name="whipped_cream">ಹಾಲಿನ ಕೆನೆ</string>
+    <string name="chocolate">ಚಾಕೊಲೇಟ್</string>
+    <string name="Quantity">ಪ್ರಮಾಣ</string>
+    <string name="Order">ಖರೀದಿ</string>
+    <string name="OrderSummary">ಖರೀದಿ ಸಾರಾಂಶ</string>
+    <string name="yes">ಹೌದು</string>
+    <string name="no">ಇಲ್ಲ</string>
+    <string name="price">ಬೆಲೆ</string>
+    <string name="thankyou">ಧನ್ಯವಾದಗಳು</string>
+</resources>

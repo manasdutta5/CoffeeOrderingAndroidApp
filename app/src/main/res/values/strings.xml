@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">CoffeeOrderingApp</string>
+    <string name="Name">Name</string>
+    <string name="Toppings">Toppings</string>
+    <string name="whipped_cream">Whipped Cream</string>
+    <string name="chocolate">Chocolate</string>
+    <string name="Quantity">Quantity</string>
+    <string name="OrderSummary">Order Summary</string>
+    <string name="Order">Order</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="price">Price</string>
+    <string name="thankyou">Thank You.</string>
 </resources>

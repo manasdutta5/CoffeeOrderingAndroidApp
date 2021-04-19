@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CoffeeOrderingApp</string>
+    <string name="Name">नाम</string>
+    <string name="Toppings">टॉपिंग</string>
+    <string name="whipped_cream">फेटी हुई मलाई</string>
+    <string name="chocolate">चॉकलेट</string>
+    <string name="Quantity">संख्या</string>
+    <string name="OrderSummary">खरीद सारांश</string>
+    <string name="Order">खरीद</string>
+    <string name="yes">हाँ</string>
+    <string name="no">नहीं</string>
+    <string name="price">कीमत</string>
+    <string name="thankyou">धन्यवाद</string>
+</resources>
